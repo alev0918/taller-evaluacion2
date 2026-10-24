@@ -26,3 +26,11 @@ int main() {string frase;
             otros++;
         }
     }
+    cout << "Vocales: " << vocales << endl;
+    cout << "Consonantes: " << consonantes << endl;
+    cout << "Digitos: " << digitos << endl;
+    cout << "Espacios: " << espacios << endl;
+    cout << "Otros simbolos: " << otros << endl;
+
+    return 0;
+}

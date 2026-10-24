@@ -20,3 +20,21 @@ int main() {
         while (inicio < fin && !isalnum(frase[fin])) {
             fin--;
         }
+
+        if (tolower(frase[inicio]) != tolower(frase[fin])) {
+            esPalindromo = false;
+            break;
+        }
+
+        inicio++;
+        fin--;
+    }
+
+    if (esPalindromo) {
+        cout << "Es palindromo." << endl;
+    } else {
+        cout << "No es palindromo." << endl;
+    }
+
+    return 0;
+}

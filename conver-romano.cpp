@@ -12,7 +12,6 @@ int main() {
         cout << "Numero fuera de rango." << endl;
         return 0;
     }
-
     int original = num;
     string romano = "";
 
